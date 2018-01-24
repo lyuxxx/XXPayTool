@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XXPayTool_Example' do
+  pod 'XXPayTool', :path => '../'
+
+  target 'XXPayTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
