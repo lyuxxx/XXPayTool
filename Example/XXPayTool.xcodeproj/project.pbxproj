@@ -21,9 +21,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		79667A97448574AE2C488EEA /* Pods_XXPayTool_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3EC11279EA4DF10FEDDC33 /* Pods_XXPayTool_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		CE9EE46F8DA5AB9E87F31FEA /* Pods_XXPayTool_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963CD197FB66D660A0141506 /* Pods_XXPayTool_Tests.framework */; };
+		9659984BA7FEE3BC22073675 /* libPods-XXPayTool_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7E856B83FAF158DE40571B /* libPods-XXPayTool_Tests.a */; };
+		E3B7694C2E2EF8D410A31738 /* libPods-XXPayTool_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 432D5E13D513A6165E4F2BE5 /* libPods-XXPayTool_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3E3EC11279EA4DF10FEDDC33 /* Pods_XXPayTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXPayTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		46CC6B1DF2C9535654704DE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		432D5E13D513A6165E4F2BE5 /* libPods-XXPayTool_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XXPayTool_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46CC6B1DF2C9535654704DE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XXPayTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXPayTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,11 +61,11 @@
 		61B25040E33EE7884CF22F59 /* Pods-XXPayTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXPayTool_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXPayTool_Example/Pods-XXPayTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6F573C83973E7C2407A64A07 /* Pods-XXPayTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXPayTool_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXPayTool_Example/Pods-XXPayTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F7E856B83FAF158DE40571B /* libPods-XXPayTool_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XXPayTool_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		963CD197FB66D660A0141506 /* Pods_XXPayTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXPayTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A682359A65D49E7B33FBBFA1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A682359A65D49E7B33FBBFA1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B5169F81ECBA791C9C26F0E6 /* Pods-XXPayTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXPayTool_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXPayTool_Tests/Pods-XXPayTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E6D93AD632B5F5BD71911D4C /* XXPayTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XXPayTool.podspec; path = ../XXPayTool.podspec; sourceTree = "<group>"; };
+		E6D93AD632B5F5BD71911D4C /* XXPayTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XXPayTool.podspec; path = ../XXPayTool.podspec; sourceTree = "<group>"; };
 		F39C26A578D6C3D13E1BC76F /* Pods-XXPayTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXPayTool_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXPayTool_Tests/Pods-XXPayTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				79667A97448574AE2C488EEA /* Pods_XXPayTool_Example.framework in Frameworks */,
+				E3B7694C2E2EF8D410A31738 /* libPods-XXPayTool_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				CE9EE46F8DA5AB9E87F31FEA /* Pods_XXPayTool_Tests.framework in Frameworks */,
+				9659984BA7FEE3BC22073675 /* libPods-XXPayTool_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				3E3EC11279EA4DF10FEDDC33 /* Pods_XXPayTool_Example.framework */,
-				963CD197FB66D660A0141506 /* Pods_XXPayTool_Tests.framework */,
+				432D5E13D513A6165E4F2BE5 /* libPods-XXPayTool_Example.a */,
+				7F7E856B83FAF158DE40571B /* libPods-XXPayTool_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "lyxiel@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = B6Q5RKSB5N;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -369,9 +372,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XXPayTool_Example/Pods-XXPayTool_Example-resources.sh",
+				"${PODS_ROOT}/Alipay-SDK/SDK/AlipaySDK.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlipaySDK.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -533,6 +539,7 @@
 			baseConfigurationReference = 6F573C83973E7C2407A64A07 /* Pods-XXPayTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B6Q5RKSB5N;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XXPayTool/XXPayTool-Prefix.pch";
 				INFOPLIST_FILE = "XXPayTool/XXPayTool-Info.plist";
@@ -548,6 +555,7 @@
 			baseConfigurationReference = 61B25040E33EE7884CF22F59 /* Pods-XXPayTool_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B6Q5RKSB5N;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XXPayTool/XXPayTool-Prefix.pch";
 				INFOPLIST_FILE = "XXPayTool/XXPayTool-Info.plist";

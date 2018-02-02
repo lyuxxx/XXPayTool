@@ -1,0 +1,6 @@
+framework module Pods_XXPayTool_Tests {
+  umbrella header "Pods-XXPayTool_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

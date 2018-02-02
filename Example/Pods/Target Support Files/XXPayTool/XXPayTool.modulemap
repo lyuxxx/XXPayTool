@@ -1,0 +1,6 @@
+framework module XXPayTool {
+  umbrella header "XXPayTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

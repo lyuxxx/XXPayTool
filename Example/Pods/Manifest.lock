@@ -1,0 +1,28 @@
+PODS:
+  - Alipay-SDK (15.5.0)
+  - LLAPPaySDK (2.7.0)
+  - UnionPay (3.3.11)
+  - XXPayTool (0.1.0):
+    - Alipay-SDK
+    - LLAPPaySDK
+    - UnionPay
+    - XXWeChatSDK
+  - XXWeChatSDK (1.8.2)
+
+DEPENDENCIES:
+  - XXPayTool (from `../`)
+
+EXTERNAL SOURCES:
+  XXPayTool:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Alipay-SDK: 704c302c8619e235f9acfb6f731bb7f36265bca5
+  LLAPPaySDK: 7b87e3368b465acae08daf1f1e7767f75321df65
+  UnionPay: f43c02800826cd5e8cb1d4f4274b6d05af314474
+  XXPayTool: d1b68b2abfba6a8e30b01188e9f7e158fa708a68
+  XXWeChatSDK: cbe4716bf3b87db7881ae82fbc5e88fa8a226e38
+
+PODFILE CHECKSUM: 7a17f451486e7bf1bc1c0c2f58bf90b460aa7dcf
+
+COCOAPODS: 1.4.0
