@@ -37,7 +37,7 @@ typedef NS_ENUM(NSUInteger, XXApplePaySupportStatus) {
     XXApplePaySupportStatusUnknown                      //未知状态
 };
 
-@interface XXPayTool : NSObject <LLPaySdkDelegate, WXApiDelegate>
+@interface XXPayTool : NSObject <LLPStdSDKDelegate, WXApiDelegate>
 
 + (XXPayTool *)getInstance;
 

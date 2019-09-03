@@ -1,5 +1,5 @@
 # XXWeChatSDK
 
-同步版本:2017.10.31版本
+同步版本:1.8.5
 
 pod 'XXWeChatSDK'

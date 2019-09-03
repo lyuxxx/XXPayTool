@@ -6,440 +6,781 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		1183C9E3069FCC7754CC19D02AAC44E7 /* XXAlipaySDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A435245966F7BED606F43E7EBB0F38B5 /* Build configuration list for PBXAggregateTarget "XXAlipaySDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = XXAlipaySDK;
+		};
+		504788249874A59923DA8FDAA3B631A8 /* LLPay */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9831F72F3059B4C1634237737518BAD7 /* Build configuration list for PBXAggregateTarget "LLPay" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = LLPay;
+		};
+		51126C146577A445F277FCF048F3713F /* UnionPay */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9A9197A3EC78553F4EA546CCA12A9923 /* Build configuration list for PBXAggregateTarget "UnionPay" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = UnionPay;
+		};
+		71ADD57B19823BB92099975E7DF4AA7D /* LLAPPaySDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A423BCBF18073344751EC3571ED763DA /* Build configuration list for PBXAggregateTarget "LLAPPaySDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+				2AB5AD010F9D75367E83AF0175F8F01D /* PBXTargetDependency */,
+			);
+			name = LLAPPaySDK;
+		};
+		FC85AC9FF58A5052EFE56560A3E9E5D1 /* XXWeChatSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E6B9A2B2AF98C2C119A50F1D4D0C1918 /* Build configuration list for PBXAggregateTarget "XXWeChatSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = XXWeChatSDK;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		3BF3BE0DC7B1538281B621B0C17994A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		433198A11B42DF5CCAFE660B17297D30 /* Pods-XXPayTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4FE6576A26FF05E5E735E64CC94237 /* Pods-XXPayTool_Example-dummy.m */; };
-		4F8E40908596E5B1819B6CDB86C0C316 /* Pods-XXPayTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1108319CBFF2D1742B0C868C5C3F597D /* Pods-XXPayTool_Tests-dummy.m */; };
-		56294D1814AC89C5EAC1472C480D37D2 /* XXPayTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0948F1A2DA3C9283F087939CAA53E51F /* XXPayTool-dummy.m */; };
-		74314E06563188346D0C3990B25B2028 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		80D1D02EA3612AFF53FD6C73B84F45D4 /* XXPayTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DC3491582819BC487F50D8157D0CDA4 /* XXPayTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9F5AC923DF9AE07ADBA58F8A45014EC2 /* XXPayTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AFB238233A56E5AC4B1BF39ECFC91F /* XXPayTool.m */; };
-		F2C5D0DC666B12BD36C5F15766F6A83B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4574367DCED3328BE1401B702DD80A86 /* XXPayTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A071F596DE4117ED38FBF1495B3F8831 /* XXPayTool-dummy.m */; };
+		4A9AF2856A8BBAD0927A6B216AD1C8E3 /* XXPayTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 67BB2E717471D373E988C755FF862A4D /* XXPayTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6DC7D015C3FC0C96F1816CEF32084EAD /* Pods-XXPayTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D87DA4DAB427D4C91D3B0362B1F5370 /* Pods-XXPayTool_Example-dummy.m */; };
+		99595E73162B4FC4C0E934166443A5B0 /* Pods-XXPayTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0991D9F5AEC8DC1AC50159462A3F80 /* Pods-XXPayTool_Tests-dummy.m */; };
+		B46418BD9333183752C00EEAD9D4403B /* XXPayTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 96084E930046F090574225497032ABAD /* XXPayTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B8BCDDBB85EDE06F6A198CCE981F8F9B /* PBXContainerItemProxy */ = {
+		02C7B9317667C854FFF52F9B3A98793E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B8233390EA54649EA735F2CE5AEA92A5;
+			remoteGlobalIDString = 1E21B1E0DB03C10BCCD3D543AC5F3827;
 			remoteInfo = XXPayTool;
+		};
+		367DEF439DD0C0D270B16EC53BC1D88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 504788249874A59923DA8FDAA3B631A8;
+			remoteInfo = LLPay;
+		};
+		3AD1874CB69AB1DE2EFEB507341E739C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61EA6C73102F81F18D9BF18AE2134057;
+			remoteInfo = "Pods-XXPayTool_Example";
+		};
+		40A40F2DD433DD0E3FE8072EED7E15A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51126C146577A445F277FCF048F3713F;
+			remoteInfo = UnionPay;
+		};
+		573B9AEACDD413D383C968AEF574CE67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 504788249874A59923DA8FDAA3B631A8;
+			remoteInfo = LLPay;
+		};
+		84472DB0BD0DB67FD4A3A4B18434E507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1183C9E3069FCC7754CC19D02AAC44E7;
+			remoteInfo = XXAlipaySDK;
+		};
+		9811BB63C4CAEE932CF45FDF20F1E4A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71ADD57B19823BB92099975E7DF4AA7D;
+			remoteInfo = LLAPPaySDK;
+		};
+		9FB14A1B54CA944CE64CCC67FAC441AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC85AC9FF58A5052EFE56560A3E9E5D1;
+			remoteInfo = XXWeChatSDK;
+		};
+		AC01FD455931987B4313647F5546AD6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71ADD57B19823BB92099975E7DF4AA7D;
+			remoteInfo = LLAPPaySDK;
+		};
+		BD666CF9B386B693BD7F9343FFF506E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC85AC9FF58A5052EFE56560A3E9E5D1;
+			remoteInfo = XXWeChatSDK;
+		};
+		EBF5D1A326D9C47E142E75AF6D4EECEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1183C9E3069FCC7754CC19D02AAC44E7;
+			remoteInfo = XXAlipaySDK;
+		};
+		EEFB21301E614770AE41460B17EA8DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51126C146577A445F277FCF048F3713F;
+			remoteInfo = UnionPay;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		041BDB7149BA7E9596F11FEDE4EB0252 /* Pods-XXPayTool_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXPayTool_Tests-resources.sh"; sourceTree = "<group>"; };
-		0948F1A2DA3C9283F087939CAA53E51F /* XXPayTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XXPayTool-dummy.m"; sourceTree = "<group>"; };
-		0D6C660B48E1292235D777ECCB59753C /* UPPaymentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPPaymentControl.h; path = SDK/UPPaymentControl.h; sourceTree = "<group>"; };
-		1108319CBFF2D1742B0C868C5C3F597D /* Pods-XXPayTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XXPayTool_Tests-dummy.m"; sourceTree = "<group>"; };
-		11121AA4F88D45F42F03CABAD11D1E1E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2D69AB139FA630A52A2A32960EF95369 /* Pods-XXPayTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXPayTool_Example-resources.sh"; sourceTree = "<group>"; };
-		4D5F91A5387D536456C2324E205C2449 /* libPaymentControl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPaymentControl.a; path = SDK/libPaymentControl.a; sourceTree = "<group>"; };
-		5C791DD13D3821AEF44386FECE6A3133 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = SDK/AlipaySDK.bundle; sourceTree = "<group>"; };
-		62DECE4A4C6430F2527208D7CC47331B /* LLAPPaySDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLAPPaySDK.h; path = LLAPPaySDK/LLAPPaySDK.h; sourceTree = "<group>"; };
-		63B2C44BC101DABF03EB966878C03868 /* libPods-XXPayTool_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-XXPayTool_Example.a"; path = "libPods-XXPayTool_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6F1B742602221D4FBEA48820D508217F /* Pods-XXPayTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXPayTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6FEA2ED50ACC4F76AF1577E80DF65509 /* Pods-XXPayTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXPayTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7700FE78E5FEC1BCC87BC91C1D552C1F /* libPods-XXPayTool_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-XXPayTool_Tests.a"; path = "libPods-XXPayTool_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		82CDA67360EA20363C7CF4CF982DEC4C /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = SDK/WechatAuthSDK.h; sourceTree = "<group>"; };
-		8DB0C12D39015D5D916881D15EFED0F1 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = SDK/WXApiObject.h; sourceTree = "<group>"; };
-		92AFB238233A56E5AC4B1BF39ECFC91F /* XXPayTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XXPayTool.m; path = XXPayTool/XXPayTool.m; sourceTree = "<group>"; };
-		92FB58C0268436CF68A993F690628713 /* Pods-XXPayTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXPayTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DC3491582819BC487F50D8157D0CDA4 /* XXPayTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XXPayTool.h; path = XXPayTool/XXPayTool.h; sourceTree = "<group>"; };
-		B645D791A1AC705AAB6B29FB0EE361CF /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = SDK/libWeChatSDK.a; sourceTree = "<group>"; };
-		B804932E6D2FB9BC0E42EDC089039482 /* Pods-XXPayTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXPayTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BF41A37B7282240BF08A93817D365DE5 /* Pods-XXPayTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXPayTool_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C59C2B35412EE98E53157C53EE5A2078 /* XXPayTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XXPayTool.xcconfig; sourceTree = "<group>"; };
-		CAACAF82CEA1D3E75FA0055D3784396C /* Pods-XXPayTool_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXPayTool_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		CC8795F1AA0F7B3975711E0B688E54F6 /* Pods-XXPayTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XXPayTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DBBE33952D3EE5E967258022F6BD9090 /* Pods-XXPayTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XXPayTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DCA89FB8FBB652F9B7F4EE94920CFC60 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = SDK/WXApi.h; sourceTree = "<group>"; };
-		E2F3E27E251481BDCA47E725E1572EF5 /* XXPayTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XXPayTool-prefix.pch"; sourceTree = "<group>"; };
-		E5424A7DCC32BFD0FF31D6DA21FE7CEC /* libLLAPPaySDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLLAPPaySDK.a; path = LLAPPaySDK/libLLAPPaySDK.a; sourceTree = "<group>"; };
-		EAE1489DC64C1741AE3D8246D2BEDDC8 /* Pods-XXPayTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XXPayTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		ECA62D1E9AE6B8799C93B312F3972FF8 /* XXPayTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XXPayTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		EE0732BBA18D2008814360525798247F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		EFDA0F8A2BE1D2AE8E126BC1AE0AB47F /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = SDK/AlipaySDK.framework; sourceTree = "<group>"; };
-		FC06132A114F38AA64D8E558F85F5EC1 /* libXXPayTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXXPayTool.a; path = libXXPayTool.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC4FE6576A26FF05E5E735E64CC94237 /* Pods-XXPayTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XXPayTool_Example-dummy.m"; sourceTree = "<group>"; };
-		FFCB9D64DF50B37E2BF16CE08D661E66 /* Pods-XXPayTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XXPayTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		04AFC4C1BBD1495366C36E088C970578 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = SDK/libWeChatSDK.a; sourceTree = "<group>"; };
+		16AD3709E697A298753411C0C282BD55 /* Pods-XXPayTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XXPayTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F77BDD982A4528DF193AE078DC7ECE6 /* libPods-XXPayTool_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-XXPayTool_Example.a"; path = "libPods-XXPayTool_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E1DBA1E30CE744D0F7B1AB92196C10 /* LLPay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLPay.xcconfig; sourceTree = "<group>"; };
+		2A2048149CFBD4FC7D5AE9D59AF7BD5C /* Pods-XXPayTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XXPayTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		317E752A1531FBD0567C166ECA8C7FB2 /* Pods-XXPayTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XXPayTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		354CE4994B28AAB12C89639933593DB0 /* libPods-XXPayTool_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-XXPayTool_Tests.a"; path = "libPods-XXPayTool_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D3A62CC6FB4A47762C3192F2B36752 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = AlipaySDK/AlipaySDK.bundle; sourceTree = "<group>"; };
+		4FAE6826707D86BF84445C4885DCFB13 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = SDK/WXApiObject.h; sourceTree = "<group>"; };
+		516AFADC79E551A4592D8FE44E8DBAD9 /* UPPaymentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPPaymentControl.h; path = SDK/UPPaymentControl.h; sourceTree = "<group>"; };
+		5B5B067F2D5B2C82BD052D117C677B48 /* UnionPay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnionPay.xcconfig; sourceTree = "<group>"; };
+		6426B977BD955D99DC6FC530D54B5E68 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = SDK/WXApi.h; sourceTree = "<group>"; };
+		658A4270ECC8E03BC5EE5B61E7819274 /* libPaymentControl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPaymentControl.a; path = SDK/libPaymentControl.a; sourceTree = "<group>"; };
+		67BB2E717471D373E988C755FF862A4D /* XXPayTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XXPayTool.h; path = XXPayTool/XXPayTool.h; sourceTree = "<group>"; };
+		7CC5B30D8B8F966480F96517441D2291 /* Pods-XXPayTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXPayTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		88B5882466FD2B0FE6E60B32FF3E31F7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8D87DA4DAB427D4C91D3B0362B1F5370 /* Pods-XXPayTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XXPayTool_Example-dummy.m"; sourceTree = "<group>"; };
+		96084E930046F090574225497032ABAD /* XXPayTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XXPayTool.m; path = XXPayTool/XXPayTool.m; sourceTree = "<group>"; };
+		98DD6DD41BEFA40BEFACB768BAAEAD74 /* LLAPPaySDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLAPPaySDK.h; path = LLAPPaySDK/LLAPPaySDK.h; sourceTree = "<group>"; };
+		9C59B1CD2E227306D54ACEC3E7D4D432 /* Pods-XXPayTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XXPayTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3792F56E21E133BDB9F49E1AB23588 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = AlipaySDK/AlipaySDK.framework; sourceTree = "<group>"; };
+		A071F596DE4117ED38FBF1495B3F8831 /* XXPayTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XXPayTool-dummy.m"; sourceTree = "<group>"; };
+		AE2970FBB8266D222DCCAB05202D7422 /* XXPayTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XXPayTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B24834BCAC2D3FF9E406BE3E223BE9C6 /* LLPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLPay.h; path = LLPay/Core/LLPay.h; sourceTree = "<group>"; };
+		B293F4BA82AD040ACBCBAD0E730CC223 /* XXPayTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XXPayTool-prefix.pch"; sourceTree = "<group>"; };
+		BD4F57684FCCB5D6EC56B1A4BA6FBC5C /* libLLAPPaySDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLLAPPaySDK.a; path = LLAPPaySDK/libLLAPPaySDK.a; sourceTree = "<group>"; };
+		C90D5923404CC4B0CF7D7BAD285B19DF /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = SDK/WechatAuthSDK.h; sourceTree = "<group>"; };
+		CA8C5D968FAAD4CDA22311BCA13C0923 /* XXWeChatSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XXWeChatSDK.xcconfig; sourceTree = "<group>"; };
+		DC4851B8CDEFCDB8B98998929BCBA94F /* Pods-XXPayTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXPayTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DCA323209977802675132EC3D0A6FDBF /* LLAPPaySDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLAPPaySDK.xcconfig; sourceTree = "<group>"; };
+		DD0991D9F5AEC8DC1AC50159462A3F80 /* Pods-XXPayTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XXPayTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		E5AB9B06F5BE786A36D430E498826B45 /* Pods-XXPayTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XXPayTool_Example-resources.sh"; sourceTree = "<group>"; };
+		E60E0A8B2D2A637D7C6CE87C9304D62A /* Pods-XXPayTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXPayTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E861FED400A08C9C0E12E2430F078E53 /* XXPayTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XXPayTool.xcconfig; sourceTree = "<group>"; };
+		EA8148A8D9B619D9FFB2B66648D6158B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		ECC0143E6A5AAC9D167F8AF103676759 /* libXXPayTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXXPayTool.a; path = libXXPayTool.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C673FD09DDA2C2753C775FA7B20720 /* XXAlipaySDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XXAlipaySDK.xcconfig; sourceTree = "<group>"; };
+		F5B07DF5CB63252493CBBBC7BDEC603E /* libLLPStdSDKCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLLPStdSDKCore.a; path = LLPay/Core/libLLPStdSDKCore.a; sourceTree = "<group>"; };
+		FECF5078780FDA7658F0992919972E21 /* Pods-XXPayTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XXPayTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BCCA8382A12865F1963126A4DDED316D /* Frameworks */ = {
+		59BC636FDF61E42CAEB887F3963902CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2C5D0DC666B12BD36C5F15766F6A83B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDE0F780F83C2A7AA87F381FE3124BB1 /* Frameworks */ = {
+		6834D0F84253C448B5AC2EBAD27BF8C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74314E06563188346D0C3990B25B2028 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F026D93B9D4C4C4CCD1490EF02F43139 /* Frameworks */ = {
+		D0862F12877387652C6EDFE86B86811F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BF3BE0DC7B1538281B621B0C17994A2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12F7AFE1AD8D7217B9AB8582367F5CC0 /* Products */ = {
+		0555B2F2BFB165266520B272C7E5F017 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				63B2C44BC101DABF03EB966878C03868 /* libPods-XXPayTool_Example.a */,
-				7700FE78E5FEC1BCC87BC91C1D552C1F /* libPods-XXPayTool_Tests.a */,
-				FC06132A114F38AA64D8E558F85F5EC1 /* libXXPayTool.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1C9F22449E1652536EE8668344B003A9 /* Pods-XXPayTool_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				CC8795F1AA0F7B3975711E0B688E54F6 /* Pods-XXPayTool_Tests-acknowledgements.markdown */,
-				DBBE33952D3EE5E967258022F6BD9090 /* Pods-XXPayTool_Tests-acknowledgements.plist */,
-				1108319CBFF2D1742B0C868C5C3F597D /* Pods-XXPayTool_Tests-dummy.m */,
-				CAACAF82CEA1D3E75FA0055D3784396C /* Pods-XXPayTool_Tests-frameworks.sh */,
-				041BDB7149BA7E9596F11FEDE4EB0252 /* Pods-XXPayTool_Tests-resources.sh */,
-				B804932E6D2FB9BC0E42EDC089039482 /* Pods-XXPayTool_Tests.debug.xcconfig */,
-				6FEA2ED50ACC4F76AF1577E80DF65509 /* Pods-XXPayTool_Tests.release.xcconfig */,
-			);
-			name = "Pods-XXPayTool_Tests";
-			path = "Target Support Files/Pods-XXPayTool_Tests";
-			sourceTree = "<group>";
-		};
-		4F2761C1EE90AB8208F34BB2ED468092 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DFC268C1F9E99A2D78C161F45704AE64 /* XXPayTool */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		5A9B2BB9A3580C5C48522965B5BD8053 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C59C2B35412EE98E53157C53EE5A2078 /* XXPayTool.xcconfig */,
-				0948F1A2DA3C9283F087939CAA53E51F /* XXPayTool-dummy.m */,
-				E2F3E27E251481BDCA47E725E1572EF5 /* XXPayTool-prefix.pch */,
+				CA8C5D968FAAD4CDA22311BCA13C0923 /* XXWeChatSDK.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XXPayTool";
+			path = "../Target Support Files/XXWeChatSDK";
 			sourceTree = "<group>";
 		};
-		7B7534AAE0074B8BA7DE06710883333B /* XXWeChatSDK */ = {
+		05B812164C8D0AA2172D02A530F408BA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				82CDA67360EA20363C7CF4CF982DEC4C /* WechatAuthSDK.h */,
-				DCA89FB8FBB652F9B7F4EE94920CFC60 /* WXApi.h */,
-				8DB0C12D39015D5D916881D15EFED0F1 /* WXApiObject.h */,
-				E5C91FE3818BBE359D6C090F8E9D2656 /* Frameworks */,
+				D6CA5DD2635E227D80ED5E5E789A610D /* LLAPPaySDK */,
+				FD5F20167D555BC04003136CBB810168 /* LLPay */,
+				BAD426B5B4E4E2532A95A941B6424C78 /* UnionPay */,
+				F261893B390D7508CF342D1A47BD56A1 /* XXAlipaySDK */,
+				2DB0705AEF2891C4DFE65105CB601027 /* XXWeChatSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2DB0705AEF2891C4DFE65105CB601027 /* XXWeChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C90D5923404CC4B0CF7D7BAD285B19DF /* WechatAuthSDK.h */,
+				6426B977BD955D99DC6FC530D54B5E68 /* WXApi.h */,
+				4FAE6826707D86BF84445C4885DCFB13 /* WXApiObject.h */,
+				A3FADB180CD294AA0B2983BCFF7D6120 /* Frameworks */,
+				0555B2F2BFB165266520B272C7E5F017 /* Support Files */,
 			);
 			name = XXWeChatSDK;
 			path = XXWeChatSDK;
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		50DCDAA201AAC3B69E5B722C7F2DCCED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				4F2761C1EE90AB8208F34BB2ED468092 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				E95BB84FE79682727DF93C40E9906915 /* Pods */,
-				12F7AFE1AD8D7217B9AB8582367F5CC0 /* Products */,
-				816AD9182E8962B5447454947041F5C7 /* Targets Support Files */,
+				1F77BDD982A4528DF193AE078DC7ECE6 /* libPods-XXPayTool_Example.a */,
+				354CE4994B28AAB12C89639933593DB0 /* libPods-XXPayTool_Tests.a */,
+				ECC0143E6A5AAC9D167F8AF103676759 /* libXXPayTool.a */,
 			);
+			name = Products;
 			sourceTree = "<group>";
 		};
-		816AD9182E8962B5447454947041F5C7 /* Targets Support Files */ = {
+		7287F806551001705A709D763CFCB30E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D5A4040C7643964009FB38E5B869763E /* Pods-XXPayTool_Example */,
-				1C9F22449E1652536EE8668344B003A9 /* Pods-XXPayTool_Tests */,
+				36D3A62CC6FB4A47762C3192F2B36752 /* AlipaySDK.bundle */,
 			);
-			name = "Targets Support Files";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		91259FB929EF1EF7038D9E421FFE4ED3 /* Frameworks */ = {
+		74264A76C742F8821D92F40150CF6B46 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E5424A7DCC32BFD0FF31D6DA21FE7CEC /* libLLAPPaySDK.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9F6CBDA64724AF07C88CD5A5D3D296D7 /* LLAPPaySDK */ = {
-			isa = PBXGroup;
-			children = (
-				62DECE4A4C6430F2527208D7CC47331B /* LLAPPaySDK.h */,
-				91259FB929EF1EF7038D9E421FFE4ED3 /* Frameworks */,
-			);
-			name = LLAPPaySDK;
-			path = LLAPPaySDK;
-			sourceTree = "<group>";
-		};
-		BC24D873F0A0A8BB6F3385B8FD80CC22 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4D5F91A5387D536456C2324E205C2449 /* libPaymentControl.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C71390280C148221B7F7CD90D0782F6C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EFDA0F8A2BE1D2AE8E126BC1AE0AB47F /* AlipaySDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D07D41C22EF9F331D8C55342EB39838C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				EE0732BBA18D2008814360525798247F /* LICENSE */,
-				11121AA4F88D45F42F03CABAD11D1E1E /* README.md */,
-				ECA62D1E9AE6B8799C93B312F3972FF8 /* XXPayTool.podspec */,
+				88B5882466FD2B0FE6E60B32FF3E31F7 /* LICENSE */,
+				EA8148A8D9B619D9FFB2B66648D6158B /* README.md */,
+				AE2970FBB8266D222DCCAB05202D7422 /* XXPayTool.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		D1FED3CCDEDA8097DF6317F51A3802E0 /* Alipay-SDK */ = {
+		8870B4C2E62C1D40139D242065F6BB8C /* Pods-XXPayTool_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				C71390280C148221B7F7CD90D0782F6C /* Frameworks */,
-				E254E7076FCB2BD873864602B6F37B13 /* Resources */,
+				9C59B1CD2E227306D54ACEC3E7D4D432 /* Pods-XXPayTool_Tests-acknowledgements.markdown */,
+				2A2048149CFBD4FC7D5AE9D59AF7BD5C /* Pods-XXPayTool_Tests-acknowledgements.plist */,
+				DD0991D9F5AEC8DC1AC50159462A3F80 /* Pods-XXPayTool_Tests-dummy.m */,
+				FECF5078780FDA7658F0992919972E21 /* Pods-XXPayTool_Tests.debug.xcconfig */,
+				E60E0A8B2D2A637D7C6CE87C9304D62A /* Pods-XXPayTool_Tests.release.xcconfig */,
 			);
-			name = "Alipay-SDK";
-			path = "Alipay-SDK";
+			name = "Pods-XXPayTool_Tests";
+			path = "Target Support Files/Pods-XXPayTool_Tests";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		8B151A05B97650880B7C3FBC7B4B80B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				9E3792F56E21E133BDB9F49E1AB23588 /* AlipaySDK.framework */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D5A4040C7643964009FB38E5B869763E /* Pods-XXPayTool_Example */ = {
+		8BB54ABDFBA657A9A7F5609620EBC6C7 /* XXPayTool */ = {
 			isa = PBXGroup;
 			children = (
-				FFCB9D64DF50B37E2BF16CE08D661E66 /* Pods-XXPayTool_Example-acknowledgements.markdown */,
-				EAE1489DC64C1741AE3D8246D2BEDDC8 /* Pods-XXPayTool_Example-acknowledgements.plist */,
-				FC4FE6576A26FF05E5E735E64CC94237 /* Pods-XXPayTool_Example-dummy.m */,
-				BF41A37B7282240BF08A93817D365DE5 /* Pods-XXPayTool_Example-frameworks.sh */,
-				2D69AB139FA630A52A2A32960EF95369 /* Pods-XXPayTool_Example-resources.sh */,
-				92FB58C0268436CF68A993F690628713 /* Pods-XXPayTool_Example.debug.xcconfig */,
-				6F1B742602221D4FBEA48820D508217F /* Pods-XXPayTool_Example.release.xcconfig */,
-			);
-			name = "Pods-XXPayTool_Example";
-			path = "Target Support Files/Pods-XXPayTool_Example";
-			sourceTree = "<group>";
-		};
-		DFC268C1F9E99A2D78C161F45704AE64 /* XXPayTool */ = {
-			isa = PBXGroup;
-			children = (
-				9DC3491582819BC487F50D8157D0CDA4 /* XXPayTool.h */,
-				92AFB238233A56E5AC4B1BF39ECFC91F /* XXPayTool.m */,
-				D07D41C22EF9F331D8C55342EB39838C /* Pod */,
-				5A9B2BB9A3580C5C48522965B5BD8053 /* Support Files */,
+				67BB2E717471D373E988C755FF862A4D /* XXPayTool.h */,
+				96084E930046F090574225497032ABAD /* XXPayTool.m */,
+				74264A76C742F8821D92F40150CF6B46 /* Pod */,
+				A15FD6E5D9D98E149179ACC2A9C731FB /* Support Files */,
 			);
 			name = XXPayTool;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		E254E7076FCB2BD873864602B6F37B13 /* Resources */ = {
+		9480834C78B621751EFDAA2D071CB6D9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5C791DD13D3821AEF44386FECE6A3133 /* AlipaySDK.bundle */,
+				5B5B067F2D5B2C82BD052D117C677B48 /* UnionPay.xcconfig */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/UnionPay";
 			sourceTree = "<group>";
 		};
-		E5C91FE3818BBE359D6C090F8E9D2656 /* Frameworks */ = {
+		9FAE9A483AF1BBB5BF45284BE684B2EE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B645D791A1AC705AAB6B29FB0EE361CF /* libWeChatSDK.a */,
+				26E1DBA1E30CE744D0F7B1AB92196C10 /* LLPay.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LLPay";
+			sourceTree = "<group>";
+		};
+		A0FD513598AACBA250BF9538ACF87C73 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BB54ABDFBA657A9A7F5609620EBC6C7 /* XXPayTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A15FD6E5D9D98E149179ACC2A9C731FB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E861FED400A08C9C0E12E2430F078E53 /* XXPayTool.xcconfig */,
+				A071F596DE4117ED38FBF1495B3F8831 /* XXPayTool-dummy.m */,
+				B293F4BA82AD040ACBCBAD0E730CC223 /* XXPayTool-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XXPayTool";
+			sourceTree = "<group>";
+		};
+		A3FADB180CD294AA0B2983BCFF7D6120 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04AFC4C1BBD1495366C36E088C970578 /* libWeChatSDK.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E95BB84FE79682727DF93C40E9906915 /* Pods */ = {
+		A4BF62F4B7E8357C6AF1F431F635D657 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D1FED3CCDEDA8097DF6317F51A3802E0 /* Alipay-SDK */,
-				9F6CBDA64724AF07C88CD5A5D3D296D7 /* LLAPPaySDK */,
-				F7919850D501445A703336F3EB49F467 /* UnionPay */,
-				7B7534AAE0074B8BA7DE06710883333B /* XXWeChatSDK */,
+				D7AC981D40A976340E42719EA90B2F76 /* Pods-XXPayTool_Example */,
+				8870B4C2E62C1D40139D242065F6BB8C /* Pods-XXPayTool_Tests */,
 			);
-			name = Pods;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F7919850D501445A703336F3EB49F467 /* UnionPay */ = {
+		BAD426B5B4E4E2532A95A941B6424C78 /* UnionPay */ = {
 			isa = PBXGroup;
 			children = (
-				0D6C660B48E1292235D777ECCB59753C /* UPPaymentControl.h */,
-				BC24D873F0A0A8BB6F3385B8FD80CC22 /* Frameworks */,
+				516AFADC79E551A4592D8FE44E8DBAD9 /* UPPaymentControl.h */,
+				F4D511132AD1BE6380C3F1E6833CF464 /* Frameworks */,
+				9480834C78B621751EFDAA2D071CB6D9 /* Support Files */,
 			);
 			name = UnionPay;
 			path = UnionPay;
 			sourceTree = "<group>";
 		};
+		C23774E627B0D761DFACCC5C8A234A45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD4F57684FCCB5D6EC56B1A4BA6FBC5C /* libLLAPPaySDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C472598F41F43618D0D111AF0D894437 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4C673FD09DDA2C2753C775FA7B20720 /* XXAlipaySDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XXAlipaySDK";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A0FD513598AACBA250BF9538ACF87C73 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				05B812164C8D0AA2172D02A530F408BA /* Pods */,
+				50DCDAA201AAC3B69E5B722C7F2DCCED /* Products */,
+				A4BF62F4B7E8357C6AF1F431F635D657 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D6CA5DD2635E227D80ED5E5E789A610D /* LLAPPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				98DD6DD41BEFA40BEFACB768BAAEAD74 /* LLAPPaySDK.h */,
+				C23774E627B0D761DFACCC5C8A234A45 /* Frameworks */,
+				EA9B5DBC2FBFAF547C6BB598D3C04ABE /* Support Files */,
+			);
+			name = LLAPPaySDK;
+			path = LLAPPaySDK;
+			sourceTree = "<group>";
+		};
+		D7AC981D40A976340E42719EA90B2F76 /* Pods-XXPayTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				16AD3709E697A298753411C0C282BD55 /* Pods-XXPayTool_Example-acknowledgements.markdown */,
+				317E752A1531FBD0567C166ECA8C7FB2 /* Pods-XXPayTool_Example-acknowledgements.plist */,
+				8D87DA4DAB427D4C91D3B0362B1F5370 /* Pods-XXPayTool_Example-dummy.m */,
+				E5AB9B06F5BE786A36D430E498826B45 /* Pods-XXPayTool_Example-resources.sh */,
+				7CC5B30D8B8F966480F96517441D2291 /* Pods-XXPayTool_Example.debug.xcconfig */,
+				DC4851B8CDEFCDB8B98998929BCBA94F /* Pods-XXPayTool_Example.release.xcconfig */,
+			);
+			name = "Pods-XXPayTool_Example";
+			path = "Target Support Files/Pods-XXPayTool_Example";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA9B5DBC2FBFAF547C6BB598D3C04ABE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCA323209977802675132EC3D0A6FDBF /* LLAPPaySDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LLAPPaySDK";
+			sourceTree = "<group>";
+		};
+		F003400FA0456EDFB16162C9CA4AF033 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5B07DF5CB63252493CBBBC7BDEC603E /* libLLPStdSDKCore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F261893B390D7508CF342D1A47BD56A1 /* XXAlipaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				8B151A05B97650880B7C3FBC7B4B80B1 /* Frameworks */,
+				7287F806551001705A709D763CFCB30E /* Resources */,
+				C472598F41F43618D0D111AF0D894437 /* Support Files */,
+			);
+			name = XXAlipaySDK;
+			path = XXAlipaySDK;
+			sourceTree = "<group>";
+		};
+		F4D511132AD1BE6380C3F1E6833CF464 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				658A4270ECC8E03BC5EE5B61E7819274 /* libPaymentControl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F966AFF7D679619E5288CC4D5CEF2617 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B24834BCAC2D3FF9E406BE3E223BE9C6 /* LLPay.h */,
+				F003400FA0456EDFB16162C9CA4AF033 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		FD5F20167D555BC04003136CBB810168 /* LLPay */ = {
+			isa = PBXGroup;
+			children = (
+				F966AFF7D679619E5288CC4D5CEF2617 /* Core */,
+				9FAE9A483AF1BBB5BF45284BE684B2EE /* Support Files */,
+			);
+			name = LLPay;
+			path = LLPay;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9E94B74482E18B57B95642EAE2113D6E /* Headers */ = {
+		5ACB6B409A95A811F17D9390F9FD4156 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80D1D02EA3612AFF53FD6C73B84F45D4 /* XXPayTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C763C715AE531ED3CE6C87E4221D78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10DDB1DC823D2552A02B14E4BD9B912 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A9AF2856A8BBAD0927A6B216AD1C8E3 /* XXPayTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0223C871E1973AA117CC23A97DE5382B /* Pods-XXPayTool_Example */ = {
+		1E21B1E0DB03C10BCCD3D543AC5F3827 /* XXPayTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E04A3828D57E0C24E1F7407E8C75E96 /* Build configuration list for PBXNativeTarget "Pods-XXPayTool_Example" */;
+			buildConfigurationList = 41767FB4CC75149ACCF824A0A1385693 /* Build configuration list for PBXNativeTarget "XXPayTool" */;
 			buildPhases = (
-				25822FB83DA8F232944EF5B8AB66BDCE /* Sources */,
-				EDE0F780F83C2A7AA87F381FE3124BB1 /* Frameworks */,
+				A10DDB1DC823D2552A02B14E4BD9B912 /* Headers */,
+				8667F46705AD0F6B2E6D989A876F6486 /* Sources */,
+				59BC636FDF61E42CAEB887F3963902CB /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				87FABBC7605559343274E1928A7E38D0 /* PBXTargetDependency */,
-			);
-			name = "Pods-XXPayTool_Example";
-			productName = "Pods-XXPayTool_Example";
-			productReference = 63B2C44BC101DABF03EB966878C03868 /* libPods-XXPayTool_Example.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		B8233390EA54649EA735F2CE5AEA92A5 /* XXPayTool */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7D4E36D597D524484B50679A53DC0CF2 /* Build configuration list for PBXNativeTarget "XXPayTool" */;
-			buildPhases = (
-				1B8452412F0B567AD49A87177F86DFCB /* Sources */,
-				F026D93B9D4C4C4CCD1490EF02F43139 /* Frameworks */,
-				9E94B74482E18B57B95642EAE2113D6E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				70338D159B0C80486CD7CC3F36C1F8C0 /* PBXTargetDependency */,
+				BF1D64006749F5842DFDA0B5E6BF8D40 /* PBXTargetDependency */,
+				51E9A225374E71AB3C2BAAADB94834CA /* PBXTargetDependency */,
+				19522EB051D62E5A9AB9CEC681706330 /* PBXTargetDependency */,
 			);
 			name = XXPayTool;
 			productName = XXPayTool;
-			productReference = FC06132A114F38AA64D8E558F85F5EC1 /* libXXPayTool.a */;
+			productReference = ECC0143E6A5AAC9D167F8AF103676759 /* libXXPayTool.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		C51E35FBC277EDBF2FE0A7FE5D433518 /* Pods-XXPayTool_Tests */ = {
+		2B3112AA57C59F351E1E6D1FB1328263 /* Pods-XXPayTool_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 390CB364F9753F63E54D8D8D8715913A /* Build configuration list for PBXNativeTarget "Pods-XXPayTool_Tests" */;
+			buildConfigurationList = 9F9DC38BF20D2D84B06674C7F85F5686 /* Build configuration list for PBXNativeTarget "Pods-XXPayTool_Tests" */;
 			buildPhases = (
-				42EA533ED2D1B9EC216F68025392261F /* Sources */,
-				BCCA8382A12865F1963126A4DDED316D /* Frameworks */,
+				5ACB6B409A95A811F17D9390F9FD4156 /* Headers */,
+				7DA1A3027D5A91E5BDAD4BAFCC992610 /* Sources */,
+				D0862F12877387652C6EDFE86B86811F /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				494FA0152018B1E1DB921CEABA88E750 /* PBXTargetDependency */,
 			);
 			name = "Pods-XXPayTool_Tests";
 			productName = "Pods-XXPayTool_Tests";
-			productReference = 7700FE78E5FEC1BCC87BC91C1D552C1F /* libPods-XXPayTool_Tests.a */;
+			productReference = 354CE4994B28AAB12C89639933593DB0 /* libPods-XXPayTool_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		61EA6C73102F81F18D9BF18AE2134057 /* Pods-XXPayTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4115CCEAA1BDB0905486C82B267DDE /* Build configuration list for PBXNativeTarget "Pods-XXPayTool_Example" */;
+			buildPhases = (
+				67C763C715AE531ED3CE6C87E4221D78 /* Headers */,
+				CE5A19551436A2299FE517B9776F8E83 /* Sources */,
+				6834D0F84253C448B5AC2EBAD27BF8C8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98450DF98089BBAEB1F0F87DEA629EE1 /* PBXTargetDependency */,
+				1A7F4241F0ECF059DECC9256C3C71088 /* PBXTargetDependency */,
+				9A3AA8D1DF0CAD10B252A60DA29CF8FB /* PBXTargetDependency */,
+				4CC83FB6DEC7050FF5B7EA6313621417 /* PBXTargetDependency */,
+				7B3341C5E52A03C3D9D7AED49F7643C1 /* PBXTargetDependency */,
+				032FB6F3C3E8515548789254A90048E3 /* PBXTargetDependency */,
+			);
+			name = "Pods-XXPayTool_Example";
+			productName = "Pods-XXPayTool_Example";
+			productReference = 1F77BDD982A4528DF193AE078DC7ECE6 /* libPods-XXPayTool_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 12F7AFE1AD8D7217B9AB8582367F5CC0 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 50DCDAA201AAC3B69E5B722C7F2DCCED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0223C871E1973AA117CC23A97DE5382B /* Pods-XXPayTool_Example */,
-				C51E35FBC277EDBF2FE0A7FE5D433518 /* Pods-XXPayTool_Tests */,
-				B8233390EA54649EA735F2CE5AEA92A5 /* XXPayTool */,
+				71ADD57B19823BB92099975E7DF4AA7D /* LLAPPaySDK */,
+				504788249874A59923DA8FDAA3B631A8 /* LLPay */,
+				61EA6C73102F81F18D9BF18AE2134057 /* Pods-XXPayTool_Example */,
+				2B3112AA57C59F351E1E6D1FB1328263 /* Pods-XXPayTool_Tests */,
+				51126C146577A445F277FCF048F3713F /* UnionPay */,
+				1183C9E3069FCC7754CC19D02AAC44E7 /* XXAlipaySDK */,
+				1E21B1E0DB03C10BCCD3D543AC5F3827 /* XXPayTool */,
+				FC85AC9FF58A5052EFE56560A3E9E5D1 /* XXWeChatSDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B8452412F0B567AD49A87177F86DFCB /* Sources */ = {
+		7DA1A3027D5A91E5BDAD4BAFCC992610 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56294D1814AC89C5EAC1472C480D37D2 /* XXPayTool-dummy.m in Sources */,
-				9F5AC923DF9AE07ADBA58F8A45014EC2 /* XXPayTool.m in Sources */,
+				99595E73162B4FC4C0E934166443A5B0 /* Pods-XXPayTool_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		25822FB83DA8F232944EF5B8AB66BDCE /* Sources */ = {
+		8667F46705AD0F6B2E6D989A876F6486 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				433198A11B42DF5CCAFE660B17297D30 /* Pods-XXPayTool_Example-dummy.m in Sources */,
+				4574367DCED3328BE1401B702DD80A86 /* XXPayTool-dummy.m in Sources */,
+				B46418BD9333183752C00EEAD9D4403B /* XXPayTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42EA533ED2D1B9EC216F68025392261F /* Sources */ = {
+		CE5A19551436A2299FE517B9776F8E83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F8E40908596E5B1819B6CDB86C0C316 /* Pods-XXPayTool_Tests-dummy.m in Sources */,
+				6DC7D015C3FC0C96F1816CEF32084EAD /* Pods-XXPayTool_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		87FABBC7605559343274E1928A7E38D0 /* PBXTargetDependency */ = {
+		032FB6F3C3E8515548789254A90048E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XXWeChatSDK;
+			target = FC85AC9FF58A5052EFE56560A3E9E5D1 /* XXWeChatSDK */;
+			targetProxy = 9FB14A1B54CA944CE64CCC67FAC441AA /* PBXContainerItemProxy */;
+		};
+		19522EB051D62E5A9AB9CEC681706330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XXWeChatSDK;
+			target = FC85AC9FF58A5052EFE56560A3E9E5D1 /* XXWeChatSDK */;
+			targetProxy = BD666CF9B386B693BD7F9343FFF506E8 /* PBXContainerItemProxy */;
+		};
+		1A7F4241F0ECF059DECC9256C3C71088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLPay;
+			target = 504788249874A59923DA8FDAA3B631A8 /* LLPay */;
+			targetProxy = 573B9AEACDD413D383C968AEF574CE67 /* PBXContainerItemProxy */;
+		};
+		2AB5AD010F9D75367E83AF0175F8F01D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLPay;
+			target = 504788249874A59923DA8FDAA3B631A8 /* LLPay */;
+			targetProxy = 367DEF439DD0C0D270B16EC53BC1D88F /* PBXContainerItemProxy */;
+		};
+		494FA0152018B1E1DB921CEABA88E750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XXPayTool_Example";
+			target = 61EA6C73102F81F18D9BF18AE2134057 /* Pods-XXPayTool_Example */;
+			targetProxy = 3AD1874CB69AB1DE2EFEB507341E739C /* PBXContainerItemProxy */;
+		};
+		4CC83FB6DEC7050FF5B7EA6313621417 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XXAlipaySDK;
+			target = 1183C9E3069FCC7754CC19D02AAC44E7 /* XXAlipaySDK */;
+			targetProxy = 84472DB0BD0DB67FD4A3A4B18434E507 /* PBXContainerItemProxy */;
+		};
+		51E9A225374E71AB3C2BAAADB94834CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XXAlipaySDK;
+			target = 1183C9E3069FCC7754CC19D02AAC44E7 /* XXAlipaySDK */;
+			targetProxy = EBF5D1A326D9C47E142E75AF6D4EECEF /* PBXContainerItemProxy */;
+		};
+		70338D159B0C80486CD7CC3F36C1F8C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLAPPaySDK;
+			target = 71ADD57B19823BB92099975E7DF4AA7D /* LLAPPaySDK */;
+			targetProxy = 9811BB63C4CAEE932CF45FDF20F1E4A6 /* PBXContainerItemProxy */;
+		};
+		7B3341C5E52A03C3D9D7AED49F7643C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XXPayTool;
-			target = B8233390EA54649EA735F2CE5AEA92A5 /* XXPayTool */;
-			targetProxy = B8BCDDBB85EDE06F6A198CCE981F8F9B /* PBXContainerItemProxy */;
+			target = 1E21B1E0DB03C10BCCD3D543AC5F3827 /* XXPayTool */;
+			targetProxy = 02C7B9317667C854FFF52F9B3A98793E /* PBXContainerItemProxy */;
+		};
+		98450DF98089BBAEB1F0F87DEA629EE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLAPPaySDK;
+			target = 71ADD57B19823BB92099975E7DF4AA7D /* LLAPPaySDK */;
+			targetProxy = AC01FD455931987B4313647F5546AD6C /* PBXContainerItemProxy */;
+		};
+		9A3AA8D1DF0CAD10B252A60DA29CF8FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UnionPay;
+			target = 51126C146577A445F277FCF048F3713F /* UnionPay */;
+			targetProxy = EEFB21301E614770AE41460B17EA8DA7 /* PBXContainerItemProxy */;
+		};
+		BF1D64006749F5842DFDA0B5E6BF8D40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UnionPay;
+			target = 51126C146577A445F277FCF048F3713F /* UnionPay */;
+			targetProxy = 40A40F2DD433DD0E3FE8072EED7E15A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10B6AB0EBC116DF26E8BE48BDCC66378 /* Debug */ = {
+		0090962C1E5419F628D2EE19F72FF0E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B804932E6D2FB9BC0E42EDC089039482 /* Pods-XXPayTool_Tests.debug.xcconfig */;
+			baseConfigurationReference = DCA323209977802675132EC3D0A6FDBF /* LLAPPaySDK.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B1CE9C6A140402BC21B99729D313B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C673FD09DDA2C2753C775FA7B20720 /* XXAlipaySDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FE2643846FF63E101B98A226C709A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C673FD09DDA2C2753C775FA7B20720 /* XXAlipaySDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B6E1F10F27A0025C157078215AE99BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA8C5D968FAAD4CDA22311BCA13C0923 /* XXWeChatSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68EB55C2328A77D2F29123785A26D3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FECF5078780FDA7658F0992919972E21 /* Pods-XXPayTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -456,9 +797,43 @@
 			};
 			name = Debug;
 		};
-		26F9D1DD118E2E887E7E49038C0C3986 /* Release */ = {
+		781B6C6174717A4D98280742006D89E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C59C2B35412EE98E53157C53EE5A2078 /* XXPayTool.xcconfig */;
+			baseConfigurationReference = CA8C5D968FAAD4CDA22311BCA13C0923 /* XXWeChatSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C506595B55BEC393FAA6CE41E1A9805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CC5B30D8B8F966480F96517441D2291 /* Pods-XXPayTool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E811FD5AE3E9EEC458575C381F31179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E861FED400A08C9C0E12E2430F078E53 /* XXPayTool.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -469,6 +844,31 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = XXPayTool;
+				PRODUCT_NAME = XXPayTool;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		978C7B206B2A5B429A8752D9A20D6210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E861FED400A08C9C0E12E2430F078E53 /* XXPayTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/XXPayTool/XXPayTool-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = XXPayTool;
+				PRODUCT_NAME = XXPayTool;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -478,7 +878,20 @@
 			};
 			name = Release;
 		};
-		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+		9F58225484E6A6BA5D252FB735798EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26E1DBA1E30CE744D0F7B1AB92196C10 /* LLPay.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -488,10 +901,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -499,6 +914,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -507,7 +923,66 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -528,194 +1003,201 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		3C7C89B6BAD091D069CF654CC281C21D /* Release */ = {
+		BF5AA2FCE8FF43CC5636E922CFF3749E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F1B742602221D4FBEA48820D508217F /* Pods-XXPayTool_Example.release.xcconfig */;
+			baseConfigurationReference = 26E1DBA1E30CE744D0F7B1AB92196C10 /* LLPay.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		3F588D84F7A796A98651F2684CF2A5A1 /* Release */ = {
+		CC9DBB84289BB0817DC6673378E6F039 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FEA2ED50ACC4F76AF1577E80DF65509 /* Pods-XXPayTool_Tests.release.xcconfig */;
+			baseConfigurationReference = DCA323209977802675132EC3D0A6FDBF /* LLAPPaySDK.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		93DDE1521078CE4A3B19EF8D9FCF2680 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92FB58C0268436CF68A993F690628713 /* Pods-XXPayTool_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		989E9AA297910E6A5658087730D20806 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C59C2B35412EE98E53157C53EE5A2078 /* XXPayTool.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/XXPayTool/XXPayTool-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		E3609D69437E798F17FDA45D6C06EC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B5B067F2D5B2C82BD052D117C677B48 /* UnionPay.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBDDF82363557A6EBEF534DF9CA6DE98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B5B067F2D5B2C82BD052D117C677B48 /* UnionPay.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED32C8DDCFFCEDCF954A7B3CC9E49406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60E0A8B2D2A637D7C6CE87C9304D62A /* Pods-XXPayTool_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCED7FFA7B87DF74187EF29C4B897145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC4851B8CDEFCDB8B98998929BCBA94F /* Pods-XXPayTool_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		41767FB4CC75149ACCF824A0A1385693 /* Build configuration list for PBXNativeTarget "XXPayTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
-				731DC216E1A58545B559F6E0A2418060 /* Release */,
+				7E811FD5AE3E9EEC458575C381F31179 /* Debug */,
+				978C7B206B2A5B429A8752D9A20D6210 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		390CB364F9753F63E54D8D8D8715913A /* Build configuration list for PBXNativeTarget "Pods-XXPayTool_Tests" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				10B6AB0EBC116DF26E8BE48BDCC66378 /* Debug */,
-				3F588D84F7A796A98651F2684CF2A5A1 /* Release */,
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7D4E36D597D524484B50679A53DC0CF2 /* Build configuration list for PBXNativeTarget "XXPayTool" */ = {
+		9831F72F3059B4C1634237737518BAD7 /* Build configuration list for PBXAggregateTarget "LLPay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				989E9AA297910E6A5658087730D20806 /* Debug */,
-				26F9D1DD118E2E887E7E49038C0C3986 /* Release */,
+				9F58225484E6A6BA5D252FB735798EB3 /* Debug */,
+				BF5AA2FCE8FF43CC5636E922CFF3749E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E04A3828D57E0C24E1F7407E8C75E96 /* Build configuration list for PBXNativeTarget "Pods-XXPayTool_Example" */ = {
+		9A9197A3EC78553F4EA546CCA12A9923 /* Build configuration list for PBXAggregateTarget "UnionPay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				93DDE1521078CE4A3B19EF8D9FCF2680 /* Debug */,
-				3C7C89B6BAD091D069CF654CC281C21D /* Release */,
+				EBDDF82363557A6EBEF534DF9CA6DE98 /* Debug */,
+				E3609D69437E798F17FDA45D6C06EC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F9DC38BF20D2D84B06674C7F85F5686 /* Build configuration list for PBXNativeTarget "Pods-XXPayTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68EB55C2328A77D2F29123785A26D3B3 /* Debug */,
+				ED32C8DDCFFCEDCF954A7B3CC9E49406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A423BCBF18073344751EC3571ED763DA /* Build configuration list for PBXAggregateTarget "LLAPPaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9DBB84289BB0817DC6673378E6F039 /* Debug */,
+				0090962C1E5419F628D2EE19F72FF0E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A435245966F7BED606F43E7EBB0F38B5 /* Build configuration list for PBXAggregateTarget "XXAlipaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE2643846FF63E101B98A226C709A3E /* Debug */,
+				0B1CE9C6A140402BC21B99729D313B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B9A2B2AF98C2C119A50F1D4D0C1918 /* Build configuration list for PBXAggregateTarget "XXWeChatSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				781B6C6174717A4D98280742006D89E8 /* Debug */,
+				5B6E1F10F27A0025C157078215AE99BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4115CCEAA1BDB0905486C82B267DDE /* Build configuration list for PBXNativeTarget "Pods-XXPayTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C506595B55BEC393FAA6CE41E1A9805 /* Debug */,
+				FCED7FFA7B87DF74187EF29C4B897145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

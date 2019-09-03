@@ -48,11 +48,12 @@
         }
     }
 }
-#pragma mark - LLPaySdkDelegate -
-- (void)paymentEnd:(LLPayResult)resultCode withResultDic:(NSDictionary *)dic {
+#pragma mark - LLPStdSDKDelegate -
+
+- (void)paymentEnd:(LLPStdSDKResult)resultCode withResultDic:(NSDictionary *)dic {
     NSString *msg;
     switch (resultCode) {
-        case kLLPayResultSuccess:
+        case LLPStdSDKResultSuccess:
         {
             msg = @"支付成功";
             NSString *result_pay = dic[@"result_pay"];
@@ -67,28 +68,28 @@
             }
         }
             break;
-        case kLLPayResultFail:
+        case LLPStdSDKResultFail:
         {
             if (self.applePayRespBlock) {
                 self.applePayRespBlock(-1, @"支付失败");
             }
         }
             break;
-        case kLLPayResultCancel:
+        case LLPStdSDKResultCancel:
         {
             if (self.applePayRespBlock) {
                 self.applePayRespBlock(-2, @"支付取消");
             }
         }
             break;
-        case kLLPayResultInitError:
+        case LLPStdSDKResultInitError:
         {
             if (self.applePayRespBlock) {
                 self.applePayRespBlock(-1, @"支付失败");
             }
         }
             break;
-        case kLLPayResultInitParamError:
+        case LLPStdSDKResultInitParamError:
         {
             if (self.applePayRespBlock) {
                 self.applePayRespBlock(-1, @"支付失败");

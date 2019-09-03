@@ -55,8 +55,8 @@ iOS SDK 要求 iOS 9.2 以上系统
 
 ## Author
 
-LLPayiOSDev, iosdev@yintong.com.cn
+LLPayiOSDev, iosdev@lianlianpay.com
 
 ## License
 
-LLAPPaySDK is available under the MIT license. See the LICENSE file for more info.
+© 2003-2019 Lianlian Yintong Electronic Payment Co., Ltd. All rights reserved.

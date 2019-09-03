@@ -1,6 +1,6 @@
 {
   "name": "XXPayTool",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "集成主流支付方式",
   "description": "集成主流支付方式，包括Apple Pay、微信、支付宝、银联",
   "homepage": "https://github.com/lyuxxx/XXPayTool",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/lyuxxx/XXPayTool.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -28,7 +28,7 @@
     "XXWeChatSDK": [
 
     ],
-    "Alipay-SDK": [
+    "XXAlipaySDK": [
 
     ],
     "UnionPay": [
