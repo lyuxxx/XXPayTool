@@ -89,9 +89,10 @@ typedef NS_ENUM(NSUInteger, XXApplePaySupportStatus) {
  注册微信appId
 
  @param appId appId
+ @param universalLink universalLink
  @return 返回值
  */
-+ (BOOL)wechatRegisterAppWithAppId:(NSString *)appId;
++ (BOOL)wechatRegisterAppWithAppId:(NSString *)appId universalLink:(NSString *)universalLink;
 
 /**
  处理微信通过URL启动App时传递回来的数据

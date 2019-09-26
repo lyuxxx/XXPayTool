@@ -2,8 +2,9 @@ FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/XXAlipaySDK/AlipaySDK"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/LLAPPaySDK" "${PODS_ROOT}/Headers/Public/LLPay" "${PODS_ROOT}/Headers/Public/UnionPay" "${PODS_ROOT}/Headers/Public/XXPayTool" "${PODS_ROOT}/Headers/Public/XXWeChatSDK"
 LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/XXPayTool" "${PODS_ROOT}/LLAPPaySDK/LLAPPaySDK" "${PODS_ROOT}/LLPay/LLPay/Core" "${PODS_ROOT}/UnionPay/SDK" "${PODS_ROOT}/XXWeChatSDK/SDK"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"LLAPPaySDK" -l"LLPStdSDKCore" -l"ObjC" -l"PaymentControl" -l"WeChatSDK" -l"XXPayTool" -l"c++" -l"sqlite3.0" -l"stdc++" -l"z" -framework "AlipaySDK" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreMotion" -framework "CoreTelephony" -framework "CoreText" -framework "Foundation" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"LLAPPaySDK" -l"LLPStdSDKCore" -l"ObjC" -l"PaymentControl" -l"WeChatSDK" -l"XXPayTool" -l"c++" -l"sqlite3.0" -l"stdc++" -l"z" -framework "AlipaySDK" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreMotion" -framework "CoreTelephony" -framework "CoreText" -framework "Foundation" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "WebKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
 PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

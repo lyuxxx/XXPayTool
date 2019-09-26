@@ -4,18 +4,18 @@ PODS:
   - LLPay/Core (2.7.9)
   - UnionPay (3.3.12)
   - XXAlipaySDK (15.6.5)
-  - XXPayTool (0.2.0):
+  - XXPayTool (0.3.0):
     - LLAPPaySDK
     - UnionPay
     - XXAlipaySDK
     - XXWeChatSDK
-  - XXWeChatSDK (1.8.5)
+  - XXWeChatSDK (1.8.6.1)
 
 DEPENDENCIES:
   - XXPayTool (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - LLAPPaySDK
     - LLPay
     - UnionPay
@@ -31,9 +31,9 @@ SPEC CHECKSUMS:
   LLPay: cfa518d6c00c70be70dbbad957ab22067910124b
   UnionPay: 461d6212a1da94972a1b0db109db4218e31d0cc7
   XXAlipaySDK: bc237d196bd2224e97bda99f2e0493538f732fdc
-  XXPayTool: 7fc6f4d819378dd759494d4da918e9842c5fb026
-  XXWeChatSDK: f1bd60500664f03f3631ecb1947e9f6508e25f19
+  XXPayTool: b637866c3d6df13aa272016c747495e31434d8f2
+  XXWeChatSDK: b245e9da83db8e277004b71546eddfdb782aed3e
 
 PODFILE CHECKSUM: 7a17f451486e7bf1bc1c0c2f58bf90b460aa7dcf
 
-COCOAPODS: 1.8.0.beta.1
+COCOAPODS: 1.8.0

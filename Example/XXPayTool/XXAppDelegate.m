@@ -15,21 +15,21 @@
 {
     // Override point for customization after application launch.
     //注册微信appId
-    [XXPayTool wechatRegisterAppWithAppId:@""];
+    [XXPayTool wechatRegisterAppWithAppId:@"" universalLink:@""];
     return YES;
 }
 
 //iOS9之前
 - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
-    if([url.scheme hasPrefix:@"wx"])//微信
+    if([url.host hasPrefix:@"wx"])//微信
     {
         return [XXPayTool wechatHandleOpenURL:url];
     }
-    else if([url.scheme hasPrefix:@"UnionPay"])//银联
+    else if([url.host hasPrefix:@"UnionPay"])//银联
     {
         return [XXPayTool unionHandleOpenURL:url];
     }
-    else if([url.scheme hasPrefix:@"safepay"])//支付宝
+    else if([url.host hasPrefix:@"safepay"])//支付宝
     {
         return [XXPayTool alipayHandleOpenURL:url];
     }
@@ -38,17 +38,20 @@
 
 //iOS9之后
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
-    if([url.scheme hasPrefix:@"wx"])//微信
-    {
-        return [XXPayTool wechatHandleOpenURL:url];
-    }
-    else if([url.scheme hasPrefix:@"UnionPay"])//银联
-    {
-        return [XXPayTool unionHandleOpenURL:url];
-    }
-    else if([url.scheme hasPrefix:@"safepay"])//支付宝
-    {
+    NSString *fromBundleId = options[UIApplicationOpenURLOptionsSourceApplicationKey];
+    if ([fromBundleId isEqualToString:@"com.tencent.xin"]) {
+        if ([[url absoluteString] containsString:@"pay"]) {
+            //WeChat Pay
+            return [XXPayTool wechatHandleOpenURL:url];
+        } else if ([[url absoluteString] containsString:@"oauth"]) {
+            //WeChat Login
+        } else {
+            //WeChat Share
+        }
+    } else if ([url.host hasPrefix:@"safepay"]) {
         return [XXPayTool alipayHandleOpenURL:url];
+    } else if ([url.host hasPrefix:@"UnionPay"]) {
+        return [XXPayTool unionHandleOpenURL:url];
     }
     return YES;
 }

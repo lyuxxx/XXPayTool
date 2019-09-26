@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XXPayTool'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = '集成主流支付方式'
 
   s.description      = <<-DESC

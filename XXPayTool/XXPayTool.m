@@ -111,8 +111,8 @@
     return [WXApi isWXAppInstalled];
 }
 
-+ (BOOL)wechatRegisterAppWithAppId:(NSString *)appId {
-    return [WXApi registerApp:appId];
++ (BOOL)wechatRegisterAppWithAppId:(NSString *)appId universalLink:(NSString *)universalLink {
+    return [WXApi registerApp:appId universalLink:universalLink];
 }
 
 + (BOOL)wechatHandleOpenURL:(NSURL *)url {
@@ -130,7 +130,7 @@
         req.nonceStr = nonceStr;
         req.timeStamp = (UInt32)timeStamp.integerValue;
         req.sign = sign;
-        [WXApi sendReq:req];
+        [WXApi sendReq:req completion:nil];
     } else {
         if (self.wechatRespBlock) {
             self.wechatRespBlock(-3, @"未安装微信");
